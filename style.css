@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: red;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#email-label, #email {
+  border: solid 1px pink;
+  color: red;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.email-prompt-text {
+  font-size: .8rem;
+  color: red;
+}
+
